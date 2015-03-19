@@ -1,0 +1,48 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Maven Resource Filtering Example 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ resource-filtering ---
+[INFO] Deleting C:\Users\Venera\workspace\maven-project\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ resource-filtering ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ resource-filtering ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to C:\Users\Venera\workspace\maven-project\target\classes
+[INFO] 
+[INFO] --- exec-maven-plugin:1.3.2:java (default-cli) @ resource-filtering ---
+[WARNING] Warning: killAfter is now deprecated. Do you need it ? Please comment on MEXEC-6.
+URL jdbc:derby:./db_dev;create=true
+Statement : org.apache.derby.impl.jdbc.EmbedStatement@190e6b
+Connection : org.apache.derby.impl.jdbc.EmbedConnection@16894001 (XID = 315), (SESSIONID = 1), (DATABASE = ./db_dev), (DRDAID = null) 
+Warning:the database wasn't created
+Insert failure
+Insert failure
+Insert failure
+Insert failure
+Insert failure
+Insert failure
+Insert failure
+Insert failure
+0 row : 0 Airat 23
+1 row : 1 Greg 24
+2 row : 2 Bheg 23
+3 row : 3 Ferth 21
+4 row : 4 Trecf 30
+5 row : 5 Daswer 20
+6 row : 6 Gfdart 22
+7 row : 7 Sawde 21
+8 row : 8 Kerubs 22
+9 row : 9 Derfji 23
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 11.951 s
+[INFO] Finished at: 2015-03-13T12:26:40+04:00
+[INFO] Final Memory: 16M/38M
+[INFO] ------------------------------------------------------------------------
